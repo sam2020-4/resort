@@ -28,12 +28,6 @@ header{
     position: relative;
 }
 
-header >h1{
-    display: flex;
-    padding: 70px;
-    text-align: center;
-}
-
 .logo{
     position: fixed;
     float: left;
@@ -91,7 +85,21 @@ nav ul li a:hover{
 }
 
 /* main content*/
+.banner-heading{
+    color: rgb(8, 8, 8);
+    position: absolute;
+    top: 20%;
+    left: 30px;
+    font-size: 30px;
+    text-align: right;
+}
 
+.banner-heading >h1{
+    color: orange;
+    text-align: center;    
+    top: 20%;
+    padding-left: 20px;
+} 
 
 
 
